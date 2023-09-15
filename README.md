@@ -16,7 +16,7 @@ Wheel of Fortune Call Letters
 https://universe.roboflow.com/warren-wiens-d0d4p/wheel-of-fortune-call-letters
 
 ## Project Overview
-The project consists of two main sections. The first is a set of Python scripts that wil lgenerate the puzzle board images needed for the machine learning training. These not only create the images, they also create the annotation files at the same time. 
+The project consists of two main sections. The first is a set of Python scripts that will generate the puzzle board images needed for the machine learning training. These not only create the images, they also create the annotation files at the same time. 
 
 The other section is the web page that displays a puzzle board and the call letters. It uses Socket.IO to update the board and the call letters in real time as the script retrieves images from the video feed and sends to a local instance of a Roboflow inference server.
 
